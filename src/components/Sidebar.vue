@@ -12,19 +12,19 @@
 
 		<h3>Menu</h3>
 		<div class="menu">
-			<router-link to="/" class="button">
+			<router-link to="/app/home" class="button">
 				<span class="material-icons">home</span>
 				<span class="text">Home</span>
 			</router-link>
-			<router-link to="/about" class="button">
+			<router-link to="/app/about" class="button">
 				<span class="material-icons">description</span>
 				<span class="text">About</span>
 			</router-link>
-			<router-link to="/team" class="button">
+			<router-link to="/app/team" class="button">
 				<span class="material-icons">group</span>
 				<span class="text">Team</span>
 			</router-link>
-			<router-link to="/contact" class="button">
+			<router-link to="/app/contact" class="button">
 				<span class="material-icons">email</span>
 				<span class="text">Contact</span>
 			</router-link>
@@ -33,7 +33,7 @@
 		<div class="flex"></div>
 		
 		<div class="menu">
-			<router-link to="/settings" class="button">
+			<router-link to="/app/settings" class="button">
 				<span class="material-icons">settings</span>
 				<span class="text">Settings</span>
 			</router-link>
@@ -42,6 +42,7 @@
 </template>
 
 <script setup>
+
 import { ref } from 'vue'
 import logoURL from '../assets/vue.svg'
 
@@ -201,3 +202,4 @@ aside {
 	}
 }
 </style>
+
